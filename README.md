@@ -76,17 +76,17 @@ Ensure you have the following installed:
 
 We welcome contributions to enhance this project! To contribute:
 
-*1. Fork the repository – Click the ‘Fork’ button on GitHub.
+**1. Fork the repository** – Click the ‘Fork’ button on GitHub.
 
-*2. Create a new branch – Use a meaningful name like feature-branch.
+**2. Create a new branch** – Use a meaningful name like feature-branch.
 
-*3. Make your changes – Ensure your code follows best practices and is well-documented.
+**3. Make your changes** – Ensure your code follows best practices and is well-documented.
 
-*4. Commit your changes – Write clear and descriptive commit messages.
+**4. Commit your changes** – Write clear and descriptive commit messages.
 
-*5. Push your changes – Push your branch to your forked repository.
+**5. Push your changes** – Push your branch to your forked repository.
 
-*6. Submit a pull request (PR) – Explain what changes you made and why.
+**6. Submit a pull request (PR)** – Explain what changes you made and why.
 
 ## Guidelines for Contributions:
 
