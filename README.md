@@ -98,6 +98,10 @@ We welcome contributions to enhance this project! To contribute:
 
 We appreciate all contributions that help improve this project!
 
+## License
+
+This project is licensed under the **MIT License** – feel free to use, modify, and distribute it. See the ```LICENSE``` file for details.
+
 ## Future Enhancements
 
 * Implement Deep Learning-based recommendations.
