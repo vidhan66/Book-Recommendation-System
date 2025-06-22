@@ -6,9 +6,11 @@ from sklearn.preprocessing import MinMaxScaler
 import zipfile
 import os
 
-CBF_data = pd.read_csv("CBF_data.csv")
-CF_data1 = pd.read_csv("CF_data1.csv")
-def extract_cf_data_zip(zip_path='CF_data2.zip', extract_to='.'):
+BASE_DIR = os.path.dirname(__file__)  
+CBF_data = pd.read_csv(os.path.join(BASE_DIR, "CBF_data.csv"))
+CF_data1 = pd.read_csv(os.path.join(BASE_DIR, "CF_data1.csv"))
+
+def extract_cf_data_zip(zip_path=os.path.join(BASE_DIR, 'CF_data2.zip'), extract_to=BASE_DIR):
     csv_path = os.path.join(extract_to, 'CF_data2.csv')
     if not os.path.exists(csv_path):
         if os.path.exists(zip_path):
@@ -18,7 +20,7 @@ def extract_cf_data_zip(zip_path='CF_data2.zip', extract_to='.'):
         else:
             print("CF_data2.zip not found.")
 extract_cf_data_zip()
-CF_data2 = pd.read_csv("CF_data2.csv")
+CF_data2 = pd.read_csv(os.path.join(BASE_DIR, "CF_data2.csv"))
 
 if "Title-Author" not in CF_data1.columns:
     CF_data1['Title-Author'] = CF_data1['Book-Title'] + " by " + CF_data1['Book-Author']
