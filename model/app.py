@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
-from recommend import api_recommend_cbf, api_recommend_cf, api_recommend_hybrid
+from model.recommend import api_recommend_cbf, api_recommend_cf, api_recommend_hybrid
 
 app = FastAPI(
     title="Book Recommendation API",
