@@ -1,6 +1,6 @@
-# Book Recommendation System
+# 📚 Book Recommendation System
 
-## Overview
+## 🚀 Overview
 
 This project implements a Book Recommendation System using multiple recommendation techniques:
 
@@ -14,15 +14,15 @@ This project implements a Book Recommendation System using multiple recommendati
 
 The system suggests books to users based on different strategies, considering user preferences, book similarities, and overall popularity trends.
 
-## Features
+## 💡 Features
 
-### 1. Popularity-Based Recommendation
+### 🔥 Popularity-Based Recommendation
 
 * Recommends books based on their overall popularity (highest-rated books).
 
 * Does not consider individual user preferences.
 
-### 2. Content-Based Filtering (CBF)
+### 🧠 Content-Based Filtering (CBF)
 
 * Suggests books similar to those a user has previously liked.
 
@@ -30,7 +30,7 @@ The system suggests books to users based on different strategies, considering us
 
 * Active users: Users who have rated more than 100 books.
 
-### 3. Collaborative Filtering (CF)
+### 👥 Collaborative Filtering (CF)
 
 * Provides recommendations based on user behavior and preferences.
 
@@ -42,38 +42,43 @@ The system suggests books to users based on different strategies, considering us
 
   * **Expert users:** Rated more than 300 books.
 
-### 4. Hybrid Model
+### ⚡ Hybrid Model
 
 * Combines CBF and CF to leverage both content and user interactions.
 
 * Provides a balanced recommendation strategy.
 
-**Dataset Link -** https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
-## Technologies Used
+**📂 Dataset Link -** https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
+## 🛠️ Tech Stack
 
-* Python
+* Python, Pandas, NumPy
 
-* Pandas, NumPy (Data manipulation and processing)
+* Scikit-learn (TF-IDF, MinMaxScaler, cosine similarity)
 
-* Scikit-learn (Machine Learning models and preprocessing)
+* FastAPI (for deployment)
 
-* Seaborn, Matplotlib (Data visualization)
+* Matplotlib, Seaborn (for data analysis)
 
-* MinMaxScaler (Feature scaling)
+* Hugging Face Spaces (for live API)
 
-* Cosine Similarity (Computing similarity between books)
-
-* TF-IDF Vectorizer (Text-based similarity in CBF)
-
-## Installation & Usage
-
-### Prerequisites
+## ▶️ Installation & Usage
 
 Ensure you have the following installed:
 
-```pip install pandas numpy scikit-learn seaborn matplotlib ```
+```pip install pandas numpy scikit-learn seaborn matplotlib fastapi uvicorn ```
 
-## Contributing
+## 👨‍💻 API Usage
+
+Deployed via FastAPI on Hugging Face Spaces. Swagger UI available at:
+
+```https://vidhan66-book-recommender.hf.space/docs```
+
+Supports:
+* ```/recommend/cbf?user_id=...```
+* ```/recommend/cf?user_id=...&book_name=...```
+* ```/recommend/hybrid?user_id=...&book_name=...```
+  
+## 🤝 Contributing
 
 We welcome contributions to enhance this project! To contribute:
 
@@ -89,7 +94,7 @@ We welcome contributions to enhance this project! To contribute:
 
 **6. Submit a pull request (PR)** – Explain what changes you made and why.
 
-## Guidelines for Contributions:
+## 📄 Guidelines for Contributions:
 
 * Issue Reporting: If you find a bug or have a feature request, open an issue on GitHub.
 
@@ -99,15 +104,14 @@ We welcome contributions to enhance this project! To contribute:
 
 We appreciate all contributions that help improve this project!
 
-## License
+## 📜 License
 
 This project is licensed under the **MIT License** – feel free to use, modify, and distribute it. See the ```LICENSE``` file for details.
 
-## Future Enhancements
+## 📌 Future Enhancements
 
 * Implement Deep Learning-based recommendations.
 
 * Improve hybrid model using dynamic weighting.
 
 Developed by Vidhan Bansal. Feel free to contribute or reach out for collaborations!
-
