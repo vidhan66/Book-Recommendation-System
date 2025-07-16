@@ -49,6 +49,13 @@ The system suggests books to users based on different strategies, considering us
 * Provides a balanced recommendation strategy.
 
 **📂 Dataset Link -** https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
+
+## 📹 Demo Video
+
+
+https://github.com/user-attachments/assets/5a1f04a3-b0dc-40b4-b24b-69525d2d8a8d
+
+
 ## 🛠️ Tech Stack
 
 * Python, Pandas, NumPy
