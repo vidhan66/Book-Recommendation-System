@@ -30,6 +30,8 @@ The system suggests books to users based on different strategies, considering us
 
 * Active users: Users who have rated more than 100 books.
 
+Note: For exercise, I have left a issue in the current implementation if you have understood it correctly try to find and resolve it 😊.
+
 ### 👥 Collaborative Filtering (CF)
 
 * Provides recommendations based on user behavior and preferences.
