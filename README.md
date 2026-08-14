@@ -167,4 +167,4 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 * Implement Deep Learning-based recommendations.
 * Improve hybrid model using dynamic weighting.
 
-Developed by Vidhan Bansal. Feel free to contribute or reach out for collaborations!
+Developed by Parth Sharma and Vidhan Bansal. Feel free to contribute or reach out for collaborations!
